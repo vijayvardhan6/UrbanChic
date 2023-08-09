@@ -1,0 +1,82 @@
+.product-left {
+  width: 600px;
+}
+
+.product-right {
+  padding-left: 20px;
+  margin-top: 70px;
+  max-width: max-content;
+}
+
+.header p span {
+  font-weight: 600;
+  color: #fc2779;
+}
+
+.image img {
+  width: 550px;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.stars {
+  height: 20px;
+}
+
+.sizes-group .btn-circle {
+  width: 50px;
+  height: 50px;
+  padding: 6px 6px;
+  margin-left: 6px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+
+.bag-wishlist .btn {
+  width: 270px;
+  height: 59px;
+  font-size: 15px;
+  text-align: center;
+}
+.quantity .bt {
+  margin-right: 5px;
+}
+
+.quantity button {
+  width: 50px;
+  height: 40px;
+  background-color: #fc2779;
+  color: white;
+  box-shadow: none;
+  border: 2px solid #fc2779; 
+  border-radius: 8px; 
+}
+
+.button-love {
+  background-color: white;
+  color: #fc2779;
+  box-shadow: none;
+  border: 2px solid #fc2779;
+}
+.button-love:hover {
+  background-color: #fc2779;
+  color: white;
+  box-shadow: none;
+}
+
+.product-bottom {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .single-product {
+    flex-direction: column;
+  }
+  .product-right {
+    width: 700px;
+    align-items: center;
+  }
+  .product-left {
+    width: max-content;
+  }
+}

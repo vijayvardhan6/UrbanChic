@@ -1,0 +1,28 @@
+.carousel {
+  height: max-content;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 90vh;
+}
+
+.carousel-item p {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.carousel-item h5 {
+  color: #fc2779;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel {
+    height: 50vh;
+  }
+}
+
+

@@ -1,0 +1,39 @@
+.card-body p span {
+  color: #fc2779;
+}
+
+.desc h6{
+  color: black;
+}
+
+.card-name{
+  color: black;
+}
+
+p {
+  margin-bottom: 1px;
+}
+
+p span {
+  font-weight: 600;
+}
+
+.card img {
+  height: 280px;
+}
+
+.card:hover {
+  transform: scale3d(1.05, 1.05, 1);
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.ratings {
+  transform: translateY(-5px);
+}
+
+.desc{
+  margin-bottom: 0px;
+  height: 20px;
+}

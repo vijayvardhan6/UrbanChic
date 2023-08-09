@@ -1,0 +1,28 @@
+.banner {
+  margin-top: 50px;
+  display: flex;
+}
+.banner1 img {
+  width: 850px;
+  height: 335px;
+  padding-right: 20px;
+}
+.banner2 img {
+  width: 450px;
+  height: 335px;
+}
+
+@media (max-width: 600px) {
+  .banner1 img{
+    width: 400px;
+    height: 235px;
+  }
+  .banner2 img {
+    margin-top: 25px;
+    width: 400px;
+    height: 235px;
+  }
+  .banner{
+    display:inline;
+  }
+}

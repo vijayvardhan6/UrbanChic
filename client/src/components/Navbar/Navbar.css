@@ -1,0 +1,61 @@
+* {
+  font-size: 17px;
+}
+
+.navbar {
+  /* margin: 10px 20px; */
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  color: #fc2779;
+}
+.navbar-nav > li {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.navbar-nav > li a:hover {
+  color: #fc2779;
+}
+
+.navbar-nav li a {
+  color: #03021a;
+  font-weight: 600;
+}
+
+.ShoppingBag,
+.love {
+  margin: 0px 5px;
+}
+.ShoppingBag {
+  transform: translateY(-2.5%);
+}
+
+.ShoppingBag span {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #2879fe;
+  color: white;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #fc2779;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #fc2779;
+}
+
+.navbar-brand:hover {
+  color: #fc2779;
+}

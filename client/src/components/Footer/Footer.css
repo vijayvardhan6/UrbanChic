@@ -1,0 +1,6 @@
+.icons li:hover{
+    scale: 1.2;
+}
+.row li:hover a{
+    font-weight: 600;
+}
